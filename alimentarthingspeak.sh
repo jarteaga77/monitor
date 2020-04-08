@@ -1,6 +1,7 @@
 
 #!/usr/bin/env bash
-KEYWRITE=SB2ABPCDMF5O8O9Q
+#KEYWRITE=PJB66H2L8W5ARG6T
+. config.cfg
 INSTALL_DIR=$(pwd)
 DISCO=$(${INSTALL_DIR}/disco.sh)
 MEMORIA=$(${INSTALL_DIR}/memoria.sh)
